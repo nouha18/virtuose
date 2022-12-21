@@ -4,7 +4,7 @@ for (var i = 0; i < slide.length; i++) {
 }
 function activateClass(e) {
     let images = document.querySelector("#images")
-    let imgs = ["Bg1.jpg","Bg2.jpg","Bg3.jpg"];
+    let imgs = ["icpc.png","ictablet.png","icphone.png"];
     for (var i = 0; i < slide.length; i++) {
         slide[i].classList.remove('show');
     }
